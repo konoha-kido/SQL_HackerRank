@@ -1,5 +1,5 @@
 /*
-Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates.
+Query the list of CITY names from STATION that do not END with vowels. Your result cannot contain duplicates.
 
 Input Format
 ____________________________
