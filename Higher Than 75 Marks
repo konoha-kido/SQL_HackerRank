@@ -11,8 +11,8 @@ NAME  - STRING
 MARKS - INTEGER
 ----------------------------------------------------------------------------------------------------------*/
 
-SELECT TOP(3) Name,  
+SELECT  Name
 FROM Students
 WHERE Marks >75
-ORDER BY RIGHT (Name)
+ORDER BY RIGHT (Name, 3),id asc
       
